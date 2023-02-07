@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blue-btn {
+  background-color: #578a8b;
+  margin-top: 20px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.orange-btn {
+  background-color: #db7533;
+  margin-top: 20px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.orange-btn:hover {
+  background-color: #feb98a;
+}
+
+.blue-btn:hover {
+  background-color:#67b8b9; 
+}
+
+.search-bar{
+  background-color: #f6dfd1;
+  border: solid 0px #f6dfd1;
+  height: 40px;
+  width: 450px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+}
+
+.search-ctn {
+  display:flex;
+  align-items: center;
+  justify-content: left;
+  background-color: #f6dfd1;
+  padding: 0 5px;
+  width: 500px;
+  border-radius: 50px;
+  height: 44px;
+  margin-top: 30px;
+}
+
+.recipe-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-display {
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

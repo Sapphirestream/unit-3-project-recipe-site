@@ -1,0 +1,27 @@
+
+.ad-body {
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3, h1 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.title {
+    color: #db7533;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.paragraph {
+    font-size: 18px;
+    text-align: center;
+    max-width: 60%;
+    letter-spacing: 1px;
+}
